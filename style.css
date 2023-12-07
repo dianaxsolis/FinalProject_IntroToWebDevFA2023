@@ -1,6 +1,7 @@
 /* FONTS */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Titillium+Web:wght@200&family=VT323&display=swap');
 
 /* ENTER PAGE */
 
@@ -44,15 +45,70 @@ body {
 
 /* HOME-PAGE */
 
+#backgroundContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url('assets/tvglitch2.gif');
+	background-size: cover;
+	background-position: center;
+}
+
+#eyeballHeader {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 25vh;
+	padding: 20px;
+}
+
 #videoContainer {
-	height: 500px;
-	width: 500px;
-	border: 10px #333 solid;
-	margin: 0 auto
+	height: 100vh;
+	width: 100vw;
+	margin: 0 auto;
 }
 
 #videoElement {
-	height: 500px;
-	width: 375px;
-	background-color: #666;
+	height: 100vh;
+	width: 100vw;
+	margin: 0 auto;
+}
+
+#textContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url('assets/tvglitch3.gif');
+	background-size: cover;
+	background-position: center;
+
+}
+
+#textHeader {
+	display: block;
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+#textParagraph {
+	display: block;
+	font-size: 40px;
+	font-family: 'VT323', monospace;
+	text-align: center;
+	color: black;
+	background-color: white;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 5;
+}
+
+#eyeballHeader2 {
+	display: block;
+	height: 25vh;
+	padding: 20px;
 }

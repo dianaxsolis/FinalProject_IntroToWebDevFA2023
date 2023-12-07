@@ -4,13 +4,37 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel = "stylesheet" type = "text/css" href="style.css">
-	<script src = "script.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<title>Digital Overload</title>
 </head>
 <body> <!-- https://www.youtube.com/watch?v=A5iUcZ9TAN8&t=582s&ab_channel=KIRUPA-->
-	<div id = "videoContainer">
-		<video autoplay = "true" id = "videoElement"> </video>
+	
+	<div id = "backgroundContainer">
+		<img src = "assets/eyeballs.gif" id = "eyeballHeader">
+		<div id = "videoContainer">
+			<video autoplay = "true" id = "videoElement"> 
+			</video>
+		</div>
+		<script src = "script.js"></script>
 	</div>
+
+	<div id = "textContainer">
+		<h1 id = "textHeader">THE ART OF BEING WATCHED ONLINE</h1>
+		<div data-aos = "fade-up" class = "container">
+			<h1 id = "textParagraph"> from 2015 to 2018, the number of installed survelliance cameras grew nearly 50 percent.</h1>
+		</div>
+		<div data-aos = "fade-up" class = "container">
+			<h1 id = "textParagraph"> the worldwide survelliance camera count goes up to 1 billion.</h1>
+		</div data-aos = "fade-up" class = "container">
+			<h1 id = "textParagraph"> <strong> 98.8 million</strong> households use smart home surveillance cameras.</h1>
+		</div>
+
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script src = "script.js"></script>
+
+	</div>
+
+
 
 </body>
 </html>
