@@ -1,1 +1,45 @@
+/* FONTS */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@900&display=swap');
+
+/* ENTER PAGE */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#enterPage {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url('assets/tvglitch.gif');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+
+}
+
+#enterTitle {
+	font-family: 'Montserrat',sans-serif;
+	font-size: 60px;
+	color: white;
+	background-color: black;
+}
+
+#enterPage .button {
+	font-size: 40px;
+	color: black;
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+
+#enterPage .button:hover {
+	color: rgb(148, 0, 211, 1.0);
+}
+
+/* HOME-PAGE */
