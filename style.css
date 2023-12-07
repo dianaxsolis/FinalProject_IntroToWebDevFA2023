@@ -43,3 +43,16 @@ body {
 }
 
 /* HOME-PAGE */
+
+#videoContainer {
+	height: 500px;
+	width: 500px;
+	border: 10px #333 solid;
+	margin: 0 auto
+}
+
+#videoElement {
+	height: 500px;
+	width: 375px;
+	background-color: #666;
+}
