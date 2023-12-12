@@ -13,3 +13,25 @@ if (navigator.mediaDevices.getUserMedia) {
 }
 
 AOS.init();
+
+// SLIDESHOW SCRIPT
+
+let slideIndex = 0;
+displayImages();
+
+function displayImages() {
+	let i;
+	const x = document.getElementsByClassName ("slides");
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	}
+
+	slideIndex++;
+
+	if (slideIndex > x.length) {
+		slideIndex = 1;
+	}
+
+	x[slideIndex-1].style.display = "block";
+	setTimeout (displayImages, 2000);
+}

@@ -73,6 +73,7 @@ body {
 	height: 100vh;
 	width: 100vw;
 	margin: 0 auto;
+
 }
 
 #textContainer {
@@ -107,8 +108,62 @@ body {
 	margin: 5;
 }
 
-#eyeballHeader2 {
+#footer {
 	display: block;
 	height: 25vh;
 	padding: 20px;
+}
+
+.videos {
+	display: grid;
+	grid-template-columns: repeat(2,minmax(0,1fr));
+	gap: 0.5rem;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+#gif {
+	width: 700px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+/* WE LIVE IN PUBLIC */
+
+.photoGrid {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.slides { 
+	width: 400px;
+	height:300px;
+}
+
+#commentary {
+	font-family: 'Montserrat',sans-serif;
+	font-size: 60px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	margin: 10px auto;
+}
+
+/* BIG BROTHER */
+
+#mainImage {
+	width: 1200px;
+	height: 800px;
+}
+
+#photoGrid2 {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(2, 1fr);
 }
